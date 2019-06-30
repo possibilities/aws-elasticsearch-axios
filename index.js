@@ -32,7 +32,7 @@ const configureDb = (url, options = {}) => {
     ...elasticsearch,
     bulk: (index, jobs) => elasticsearch.post(
       options.refresh
-        ? `${index}/doc/_bulk?refresh=${refresh}`
+        ? `${index}/doc/_bulk?refresh=${options.refresh}`
         : `${index}/doc/_bulk`,
       jobs.map(JSON.stringify).join('\n') + '\n'
     )
