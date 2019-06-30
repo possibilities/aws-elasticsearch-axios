@@ -1,6 +1,6 @@
 # AWS Elasticsearch with Axios [![CircleCI](https://circleci.com/gh/possibilities/aws-elasticsearch-axios.svg?style=svg)](https://circleci.com/gh/possibilities/aws-elasticsearch-axios)
 
-A small client for [AWS Elasticsearch](https://aws.amazon.com/elasticsearch-service/) based on the [Axios request library](https://github.com/axios/axios) and [AWS4](https://github.com/mhart/aws4).
+A small client for [AWS Elasticsearch](https://aws.amazon.com/elasticsearch-service/) based on the [Axios request library](https://github.com/axios/axios) and [AWS4](https://github.com/mhart/aws4)
 
 ## Usage
 
