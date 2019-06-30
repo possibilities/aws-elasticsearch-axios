@@ -2,6 +2,10 @@
 
 A small client for [AWS Elasticsearch](https://aws.amazon.com/elasticsearch-service/) based on the [Axios request library](https://github.com/axios/axios) and [AWS4](https://github.com/mhart/aws4).
 
+## Usage
+
+For now see [test suite](./__tests__) for usage
+
 ## API
 
 ### Client
